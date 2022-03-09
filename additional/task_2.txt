@@ -1,0 +1,7 @@
+# The following Dockerfile has been prepared for the application from the test task
+
+# Image with node and installed modules
+FROM node:16.14.0
+COPY ./src /app
+CMD ["npm", "run", "prod"]
+
